@@ -1,0 +1,64 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Frame = Instance.new("Frame")
+local Gui = Instance.new("ImageButton")
+local Title = Instance.new("TextLabel")
+local Prisonlifescript = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+
+--Properties:
+
+Frame.Parent = game.StarterGui.KadenWare
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.173626378, 0, 0.189629629, 0)
+Frame.Size = UDim2.new(0, 100, 0, 100)
+
+Gui.Name = "Gui"
+Gui.Parent = Frame
+Gui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.BorderSizePixel = 0
+Gui.Position = UDim2.new(0.263626397, 0, 0.529629529, 0)
+Gui.Size = UDim2.new(0, 357, 0, 271)
+Gui.Image = "rbxassetid://9869152397"
+
+Title.Name = "Title"
+Title.Parent = Gui
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 357, 0, 19)
+Title.Font = Enum.Font.Sarpanch
+Title.LineHeight = 1.010
+Title.Text = "KadenWare"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 14.000
+
+Prisonlifescript.Name = "Prison life script"
+Prisonlifescript.Parent = Gui
+Prisonlifescript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Prisonlifescript.BackgroundTransparency = 1.000
+Prisonlifescript.BorderSizePixel = 0
+Prisonlifescript.Position = UDim2.new(0, 0, 0.177121773, 0)
+Prisonlifescript.Size = UDim2.new(0, 121, 0, 30)
+Prisonlifescript.Font = Enum.Font.SourceSans
+Prisonlifescript.Text = "Prison life script"
+Prisonlifescript.TextColor3 = Color3.fromRGB(0, 0, 0)
+Prisonlifescript.TextSize = 14.000
+
+X.Name = "X"
+X.Parent = Frame
+X.BackgroundColor3 = Color3.fromRGB(139, 0, 0)
+X.BorderSizePixel = 0
+X.Position = UDim2.new(6.99845886, 0, -1.27999997, 0)
+X.Size = UDim2.new(0, 65, 0, 19)
+X.Selected = true
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(0, 0, 0)
+X.TextSize = 14.000
